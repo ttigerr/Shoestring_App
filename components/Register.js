@@ -34,6 +34,7 @@ export function Register (props)
         setPassword( passwordVal )
     }
     
+    
       const submitHandler = () => {
           console.log('Submitting')
         props.handler( email, password )
