@@ -5,6 +5,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 // Import components
+
 import { Login } from './components/Login';
 import { Register } from './components/Register';
 import { LandingPage } from './components/LandingPage';
