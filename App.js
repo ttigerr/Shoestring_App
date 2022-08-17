@@ -11,6 +11,7 @@ import MyBookings from "./src/components/MyBookings"
 import BookingDetails from './src/components/BookingDetails';
 const Stack = createStackNavigator();
 import BookingDetail from "./src/components/BookingDetail"
+
 const App = () => {
   return (
     <NavigationContainer>
