@@ -175,6 +175,19 @@ const Login = ({ navigation }) => {
                 >
                   <Text style={style.registerHere}> Register here!</Text>
                 </TouchableOpacity>
+
+                <TouchableOpacity
+                    style={{
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        position: "absolute",
+                        marginTop: 40
+                    }}
+                    onPress={() => {navigation.navigate("LandingPage") }
+                    }
+                >
+                    <Text style={style.check}>Clock here to check the trips first!</Text>
+                </TouchableOpacity>
               </View>
             </View>
           </ImageBackground>
@@ -250,6 +263,10 @@ const style = StyleSheet.create({
 
   registerHere: {
     color: COLOURS.blue,
+  },
+
+  check: {
+    color: COLOURS.orange,
   },
 });
 

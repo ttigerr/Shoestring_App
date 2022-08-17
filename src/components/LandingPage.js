@@ -520,7 +520,7 @@ const style = StyleSheet.create({
         maxWidth: 130,
         height: '100%',
         paddingTop: 50,
-        marginLeft: width * 0.27
+        marginLeft: width * 0.30
     },
     container: {
         position: "absolute",
