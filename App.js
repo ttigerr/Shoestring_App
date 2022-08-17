@@ -7,6 +7,7 @@ import Results from './src/components/Results';
 import Login from './src/components/Login';
 import Details from './src/components/Details';
 
+
 import Register from './src/components/Register';
 import MyBookings from "./src/components/MyBookings"
 import BookingDetails from './src/components/BookingDetails';
